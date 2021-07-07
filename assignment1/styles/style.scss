@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Yanone Kaffeesatz',
+sans-serif;*/
+$grey1: #5b5b5b;
+$xsmall : 576px;
+$small: 768px;
+$medium: 992px;
+$large: 992px;
+.sub-title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    top: 2rem;
+}
+.bg-header {
+    background-image: url("../images/bg-header.png");
+}
+.image-expln {
+    width: 22%;
+    float: left;
+    position: relative;
+    top: 18rem;
+    left: -17rem;
+    font-weight: 500;
+    color: $grey1;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+}
+.container-blog {
+    .btn-more {
+        position: relative;
+        top: 18rem;
+        border: 1px solid $grey1;
+    }
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    padding-right: 4rem;
+    padding-left: 25rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 38rem;
+    position: relative;
+    top: -15rem;
+    .first-letter {
+        font-size: 7rem;
+        font-family: 'Playfair Display', serif;
+    }
+    .blog-p {
+        position: relative;
+        top: 12rem;
+    }
+    .blog-p2 {
+        position: relative;
+        top: 15rem;
+    }
+    .blog-p3 {
+        position: relative;
+        top: 18rem;
+    }
+    .exercise-num {
+        color: #ee4638;
+        position: absolute;
+        top: -2rem;
+        left: -5rem;
+        font-size: 4rem;
+        font-family: 'Playfair Display' ,serif;
+        font-weight: 300;
+        border: 1px solid $grey1;
+        border-radius: 50%;
+        padding-top: 1rem;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+        padding-bottom: 1.8rem;
+    }
+}
+.exercises-info {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 38rem;
+    position: relative;
+    top: -5rem;
+    left: 10.5rem;
+    background-image: url("../images/bg-header.png");
+}
+.img-1 {
+    position: relative;
+    left: 6rem;
+}
+.img-2 {
+    position: relative;
+    top: -2rem;
+}
+.img-3 {
+    position: relative;
+    top: -10rem;
+    left: 25rem;
+}
+.img-4 {
+    position: relative;
+    top: 17rem;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.share-icon {
+    float: right;
+    margin-left: 2rem;
+}
+.motto {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.author-name {
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    font-weight: 500;
+    color: $grey1;
+    position: relative;
+    top: 27rem;
+    left: -18rem;
+}
+.align-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1280px;
+}
+/*.container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+.fa-square {
+    transform: rotate(45deg) scale(0.3);
+    color: #808080;
+    float: right;
+    position: relative;
+    top: -2.5rem;
+}
+.set-square1 {
+    position: relative;
+    left: 1.7rem;
+}
+.set-square2 {
+    position: relative;
+    top: -6.7rem;
+}
+.nav-item {
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    font-weight: 300;
+    .main-title {
+        font-size: 3rem;
+        position: relative;
+        top:-2rem;
+    }
+    .search-icon {
+        position: relative;
+        top: 1.5rem;
+    }
+}
+
+.row {
+    display: table;
+    .col-1 {
+        width: 8.33%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-2 {
+        width: 12%;
+        margin: 0.4rem;
+        float: left;
+    }
+
+    .col-3 {
+        width: 25%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-4 {
+        width: 33.33%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-5 {
+        width: 41.66%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-6 {
+        width: 50%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-7 {
+        width: 58.33%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-8 {
+        width: 66.66%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-9 {
+        width: 75%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-10 {
+        width: 83.33%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-11 {
+        width: 91.66%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-12 {
+        width: 100%;
+        margin: 0.3rem;
+        float: left;
+    }
+}

@@ -1,0 +1,28 @@
+$colors: (
+    "Orange": #ffa500,
+	"Crimson": #dc143c,
+	"Khaki": #F0E68C,
+    "Pink": #ffc0cb,
+    "Aquamarine": #00FFBF,
+    "Turquoise": #40E0D0,
+    "Yellow": #ffff00,
+    "Goldenrod": #DAA520,
+    "Fuscia": #FF00FF,
+    "Puce": #A95C68,
+    "Maroon": #800000,
+    "Purple": #800080
+    );
+/*
+@mixin mq($width, $type: min) {
+	@if map_has_key($breakpoints, $width) {
+		$width: map_get($breakpoints, $width);
+
+		@if $type==max {
+			$width: $width - 1px;
+		}
+
+		@media only screen and (#{$type}-width: $width) {
+			@content;
+		}
+	}
+}*/

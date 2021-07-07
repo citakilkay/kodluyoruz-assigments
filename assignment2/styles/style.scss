@@ -1,0 +1,291 @@
+/*font-family: 'Baloo Tammudu 2',
+cursive;
+font-family: 'Lato',
+sans-serif;*/
+$darkBlue: #2d314d;
+$limeGreen: #31d35c;
+$brightCyan: #2bb7da;
+$grayishBlue: #9698a6;
+$lightGrayishBlue: #f3f4f6;
+$veryLightGray: #fafafa;
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+.inline {
+    display: inline;
+}
+.circle-img {
+    border-radius: 50%;
+}
+.header-section {
+    font-family: 'Lato', sans-serif;
+    color: $darkBlue;
+    font-size: x-large;
+    justify-content: space-between;
+    border-top: 2px solid $lightGrayishBlue;
+    border-bottom: 2px solid $lightGrayishBlue;
+
+    .header-image {
+        opacity: 83%;
+        height: 20vh;
+        width: auto;
+        transform: scale(1.17);
+        transform-origin: right;
+        overflow: hidden;
+    }
+}
+.navbar {
+    font-family: 'Lato',sans-serif;
+    background-color: $veryLightGray;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    .logo {
+        float: left;
+        margin-left: 10rem;
+    }
+}
+.hide-desktop {
+    @media(min-width: 720px) {
+        display: none;
+    }
+}
+
+.header-toggle {
+    cursor: pointer;
+
+    >span {
+        margin-bottom: 6px;
+        display: block;
+        width: 26px;
+        height: 1px;
+        background-color: $darkBlue;
+    }
+}
+.main-img {
+    width: 58vw;
+    height: auto;
+    overflow: hidden;
+}
+.main-content {
+    font-family: 'Baloo Tammudu 2', sans-serif;
+    display: block;
+    margin-left: 2rem;
+    overflow-y: scroll;
+    height: 75vh;
+}
+.footer {
+    background-color: $darkBlue;
+}
+.recipe-info {
+    border-radius: 2%;
+    padding-right: 2rem;
+    font-family: 'Lato', sans-serif;
+    background-color: $lightGrayishBlue;
+    position: relative;
+    top: -2rem;
+}
+.row {
+    display: table;
+    justify-content: space-between;
+
+    .col-1 {
+        width: 8.33%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-2 {
+        width: 12%;
+        margin: 0.4rem;
+        float: left;
+    }
+
+    .col-3 {
+        width: 25%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-4 {
+        width: 33.33%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-5 {
+        width: 41.66%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-6 {
+        width: 50%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-7 {
+        width: 56.33%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-8 {
+        width: 66.66%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-9 {
+        width: 75%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-10 {
+        width: 83.33%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-11 {
+        width: 91.66%;
+        margin: 0.3rem;
+        float: left;
+    }
+
+    .col-12 {
+        width: 100%;
+        margin: 0.3rem;
+        float: left;
+    }
+}
+
+.mx-1 {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.mx-2 {
+    margin-left: 1.6rem;
+    margin-left: 1.6rem;
+}
+
+.mx-3 {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+
+.mx-4 {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+}
+
+.mx-5 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.my-1 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.my-2 {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.my-3 {
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.my-4 {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.my-5 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.mt-1 {
+    margin-top: 0.8rem;
+}
+
+.mt-2 {
+    margin-top: 1.6rem;
+}
+
+.mt-3 {
+    margin-top: 2.4rem;
+}
+
+.mt-4 {
+    margin-top: 3.2rem;
+}
+
+.mt-5 {
+    margin-top: 4rem;
+}
+
+.mr-4 {
+    margin-right: 4rem;
+}
+.mr-1 {
+    margin-right: 0.8rem;
+}
+
+.py-1 {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.py-2 {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.py-3 {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+}
+
+.py-4 {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+.py-5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.px-1 {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.px-2 {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+}
+.mb-5 {
+    padding-bottom: 0.8rem;
+}

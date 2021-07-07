@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+	// NOTES: set CSS variables on assets/scss/globals/_variables.scss
+	// background-color: var(--home-color);
+
+
+// google fonts kullan
+  
+  	.card {
+      &:hover {
+        transition: 0.5s;
+        box-shadow: 1px -1px 31px 8px rgba(0, 0, 0, 0.38);
+      }
+      width: calc(100% / 2);
+      margin: 0.5rem;
+      border: 3px solid rgb(43, 42, 42);
+      border-radius : 5px;
+      	&__header {
+          cursor: pointer;
+          min-height: 8em;
+        }
+  		&__title {
+        border-top: 2px solid aqua;
+        text-align: center;
+      }
+
+  		&__assist {
+        text-align: center;
+        border-bottom: 2px solid aqua;
+      }
+      &__body {
+        background-color: aqua;
+        display: none;
+        &.-active {
+          transition: 0.5s;
+          min-height: 20em;
+          display: block;
+        	border-top: 1px solid rgb(71, 69, 69);
+        }
+      }
+
+  		&__list {
+        padding-left: 0;
+        margin-top: 2em;
+        justify-content: space-between;
+        list-style: none;
+        text-align: center;
+  		}
+      &__item {
+      	margin-top: 1em;
+      }
+  	}
+    //@include mq(ta)
+    @include mq(tablet, min) {
+    	background-color: white;
+
+    	.card {
+    		margin: 3rem;
+    		width: calc(100% / 4);
+
+    		&__header {
+    			min-height: 2em;
+    		}
+    	}
+    }
+
+    //@include mq(mobil)
+    @include mq(mobil, min) {
+      .card {
+        margin: 3rem;
+        width: calc(100% / 3);
+      }
+    }
+}
